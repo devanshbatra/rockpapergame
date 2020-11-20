@@ -1,0 +1,37 @@
+/* scorebar */
+#scorebar{
+    margin: 20px 0px;
+}
+/* start */
+#changebutton{
+    position: absolute;
+    bottom: 4%;
+    right: 4%;
+}
+#letsplay{
+    margin: 60px;
+}
+
+
+/* gplay */
+#gplay{
+    left: 20%;
+    top: 23%;
+}
+.options button{
+    margin: 30px 35px;
+}
+.headgplay{
+    font-size: 2rem;
+}
+.hands img{
+    margin: 41px 47px;
+    height: 9rem;
+}
+/* utility */
+.h-primary{
+    font-size: 4rem;
+}
+.h-secondary{
+    font-size: 2.3rem;
+}

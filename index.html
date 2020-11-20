@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Baloo+Tamma+2&family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:615px)" href="./rotate.css">
+    <link rel="stylesheet" media="screen and (max-width:900px) and (min-width:615px)" href="./phone.css">
+    <link rel="stylesheet" media="screen and (max-width:1300px) and (min-width:900px)" href="./s-laptop.css">
+
+</head>
+<body>
+    <div class="backgroundimg">
+        <img src="./img/image1.png" alt="">
+    </div>
+    <div id="scorebar">
+        <div id="player">
+            <h3 class="h-secondary">Player</h3>
+            <h3 id="Pscore" class="h-secondary">0</h3>
+        </div>
+        <div id="computer"> 
+            <h3 class="h-secondary">Computer</h3>
+            <h3 id="Cscore" class="h-secondary">0</h3>
+        </div>
+    </div>
+
+    <div id="start" >
+        <h1 class="h-primary" id="gamename">Stone Paper and Scissors</h1>
+        <button class="btn" id="letsplay" >Let's Play</button>
+        <button class="btn" id="changebutton">Change Theme</button>
+    </div>
+
+    <div  id="gplay" class="fadeout">
+        <h1 class="headgplay">Choose Your Option</h1>
+        <div class="hands">
+            <img src="./img/Stone.png" alt="Player hand" class="playerHand">
+            <img src="./img/Stone.png" alt="Computer hand" class="computerHand">
+        </div>
+        <div class="options">
+            <button class="btn" id="Stoneb">Stone</button>
+            <button class="btn" id="paperb">Paper</button>
+            <button class="btn" id="scissorsb">Scissors</button>
+
+
+    <script src="./Script.js"></script>
+
+</body>
+</html>

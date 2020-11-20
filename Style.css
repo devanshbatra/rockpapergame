@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+}
+/* Scorebar */
+.backgroundimg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    left: 0px;
+    top: 0px;
+}
+#Pscore,
+#Cscore{
+    text-align: center;
+}
+#scorebar{
+    display: flex;
+    justify-content: space-around;
+    margin: 62px 18px;
+}
+
+/* start */
+#start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease;
+}
+#letsplay{
+    margin: 150px 0px;
+}
+
+/* #gamename{
+    animation: gname 2s ease 1s 1;
+}
+@keyframes gname{
+    0%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(1);    
+    }
+} */
+
+
+/* Game Play */
+#gplay{
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hands{
+    display: flex;
+}
+.hands img{
+    height: 173px;
+    margin: 53px 121px;
+}
+.headgplay{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 3rem;
+}
+.options button{
+    margin: 40px 57px;
+}
+.playerHand{
+    transform: rotateY(180deg);
+}
+
+
+/* change theme */
+#changebutton{
+    position: absolute; 
+    bottom: 10px;
+    right: 28px;
+}
+
+/* Utility */
+.h-primary{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 5rem;
+}
+
+.h-secondary{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 2rem;
+}
+.btn {
+    padding: 7px 21px;
+    margin: 25px 0px;
+    background-color: #4d76a0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-family: 'Baloo Tamma 2', cursive;
+    cursor: pointer;
+    transition: background-color 0.5s ease 0s;
+    outline: none;
+}
+.btn:hover{
+    background-color: #314455;
+}
+
+.fadeout{
+    opacity: 0;
+    z-index: -1;
+}
+.fadein{
+    opacity: 1;
+    z-index: 1;
+}
+
+@keyframes shakeplayer {
+    0%{
+        transform:  rotateY(180deg) translateY(0px);
+    }
+    15%{
+        transform:  rotateY(180deg) translateY(-50px);
+    }
+    30%{
+        transform:  rotateY(180deg) translateY(0px);
+    }
+    45%{
+        transform:  rotateY(180deg) translateY(-50px);
+    }
+    60%{
+        transform:  rotateY(180deg) translateY(0px);
+    }
+    75%{
+        transform:  rotateY(180deg) translateY(-50px);
+    }
+    90%{
+        transform:  rotateY(180deg) translateY(0px);
+    }
+}
+
+@keyframes shakecomputer {
+    0%{
+        transform:  translateY(0px);
+    }
+    15%{
+        transform:  translateY(-50px);
+    }
+    30%{
+        transform:  translateY(0px);
+    }
+    45%{
+        transform:  translateY(-50px);
+    }
+    60%{
+        transform:  translateY(0px);
+    }
+    75%{
+        transform:  translateY(-50px);
+    }
+    90%{
+        transform:  translateY(0px);
+    }
+}

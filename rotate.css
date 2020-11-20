@@ -1,0 +1,51 @@
+body::before{
+    content: 'Please Rotate Your Phone';
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    font-size: 6rem;
+    padding: 60px;
+    font-family: 'Bangers', cursive;
+}
+/* scorebar */
+#scorebar{
+    margin: 15px 0px;
+}
+/* start */
+#changebutton{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+#letsplay{
+    margin: 60px;
+}
+
+
+/* gplay */
+#gplay{
+    left: 13%;
+    top: 23%;
+}
+.options button{
+    margin: 13px 35px;
+}
+.headgplay{
+    font-size: 2rem;
+}
+.hands img{
+    margin: 41px 47px;
+    height: 6rem;
+}
+/* utility */
+.h-primary{
+    font-size: 2rem;
+}
+.h-secondary{
+    font-size: 1.3rem;
+}
