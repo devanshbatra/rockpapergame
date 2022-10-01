@@ -5,7 +5,7 @@
 /* start */
 #changebutton{
     position: absolute;
-    bottom: 4%;
+    bottom: 4.5%;
     right: 4%;
 }
 #letsplay{
@@ -22,7 +22,7 @@
     margin: 30px 35px;
 }
 .headgplay{
-    font-size: 2rem;
+    font-size: 2.01rem;
 }
 .hands img{
     margin: 41px 47px;
